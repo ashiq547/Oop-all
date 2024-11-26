@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="asif.library.Dashboard">
+   <children>
+      <Button layoutX="66.0" layoutY="123.0" mnemonicParsing="false" onAction="#goToLibrary" prefHeight="93.0" prefWidth="164.0" text="Librarian" />
+      <Button layoutX="359.0" layoutY="123.0" mnemonicParsing="false" onAction="#goToEventOrg" prefHeight="93.0" prefWidth="164.0" text="Event Organizer" />
+      <Label layoutX="52.0" layoutY="27.0" prefHeight="52.0" prefWidth="296.0" text="Welcome to Dashboard">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="443.0" layoutY="34.0" mnemonicParsing="false" onAction="#onLogOutButtonClick" prefHeight="38.0" prefWidth="80.0" text="Log Out" />
+   </children>
+</AnchorPane>
