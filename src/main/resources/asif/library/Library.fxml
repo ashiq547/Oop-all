@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="asif.library.Library">
+   <children>
+      <Button layoutX="29.0" layoutY="32.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="38.0" prefWidth="52.0" text="←">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="237.0" layoutY="32.0" prefHeight="58.0" prefWidth="140.0" text="Libraraian">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="466.0" layoutY="32.0" mnemonicParsing="false" onAction="#onLogOutButtonClick" prefHeight="38.0" prefWidth="88.0" text="Log Out">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="31.0" layoutY="118.0" mnemonicParsing="false" onAction="#ongoToUpdateBook" prefHeight="58.0" prefWidth="99.0" text="Update Book" />
+      <Button layoutX="403.0" layoutY="201.0" mnemonicParsing="false" onAction="#ongoToLibraryMember" prefHeight="58.0" prefWidth="166.0" text="Library Member Account" />
+      <Button layoutX="237.0" layoutY="297.0" mnemonicParsing="false" onAction="#ongoToSeeLibraryEvents" prefHeight="58.0" prefWidth="126.0" text="See Library Events" />
+      <Button layoutX="159.0" layoutY="118.0" mnemonicParsing="false" onAction="#ongoToReport" prefHeight="58.0" prefWidth="112.0" text="Activity Reports" />
+      <Button layoutX="307.0" layoutY="118.0" mnemonicParsing="false" onAction="#ongoToBookReturn" prefHeight="58.0" prefWidth="96.0" text="Book Returns" />
+      <Button layoutX="31.0" layoutY="201.0" mnemonicParsing="false" onAction="#ongoToBookReservation" prefHeight="58.0" prefWidth="166.0" text="Book Reservation Request" />
+      <Button layoutX="217.0" layoutY="201.0" mnemonicParsing="false" onAction="#ongoToDueNotification" prefHeight="58.0" prefWidth="166.0" text="OverDue Notification" />
+      <Button layoutX="442.0" layoutY="118.0" mnemonicParsing="false" onAction="#ongoToBookDonation" prefHeight="58.0" prefWidth="112.0" text="Book Donation" />
+   </children>
+</AnchorPane>
