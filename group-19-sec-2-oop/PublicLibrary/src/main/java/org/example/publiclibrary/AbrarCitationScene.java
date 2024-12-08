@@ -1,5 +1,10 @@
 package org.example.publiclibrary;
 
+import javafx.scene.control.ComboBox;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+
 public class AbrarCitationScene
 {
     @javafx.fxml.FXML
