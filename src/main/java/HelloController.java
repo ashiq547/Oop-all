@@ -25,7 +25,7 @@ public class HelloController {
     @FXML
     public void onHelloButtonClick(ActionEvent actionEvent) throws IOException {
 
-            SceneManager.switchScene("DemoBookEntry.fxml");
+//            SceneManager.switchScene("DemoBookEntry.fxml");
 
         }
 
