@@ -2,35 +2,48 @@ package org.example.publiclibrary;
 
 import javafx.scene.control.ComboBox;
 
-import java.awt.*;
+import javax.swing.table.TableColumn;
+import javax.swing.text.TableView;
 import java.awt.event.ActionEvent;
 
 public class AbrarCitationScene
 {
+
     @javafx.fxml.FXML
-    private ComboBox citationTypeSelect;
+    private TableColumn dopTC;
     @javafx.fxml.FXML
-    private TextArea outputArea;
+    private TableView bookTableView1;
     @javafx.fxml.FXML
-    private TextArea docDetailsDisplayArea;
+    private TableColumn bookIDTC;
+    @javafx.fxml.FXML
+    private TableColumn genreTC1;
+    @javafx.fxml.FXML
+    private TableColumn bookNameTC1;
+    @javafx.fxml.FXML
+    private TableColumn bookNameTC;
+    @javafx.fxml.FXML
+    private TableColumn dopTC1;
+    @javafx.fxml.FXML
+    private ComboBox styleCB;
+    @javafx.fxml.FXML
+    private TableColumn bookIDTC1;
+    @javafx.fxml.FXML
+    private TableColumn genreTC;
+    @javafx.fxml.FXML
+    private TableColumn citationTC;
+    @javafx.fxml.FXML
+    private TableView bookTableView;
 
     @javafx.fxml.FXML
     public void initialize() {
+
     }
 
     @javafx.fxml.FXML
-    public void clearBtn(ActionEvent actionEvent) {
+    public void backBtnOnClick(ActionEvent actionEvent) {
     }
 
     @javafx.fxml.FXML
-    public void citationTypeSelectOnAction(ActionEvent actionEvent) {
-    }
-
-    @javafx.fxml.FXML
-    public void selectFilebtn(ActionEvent actionEvent) {
-    }
-
-    @javafx.fxml.FXML
-    public void generateBtn(ActionEvent actionEvent) {
+    public void SaveBtnOnClick(ActionEvent actionEvent) {
     }
 }
