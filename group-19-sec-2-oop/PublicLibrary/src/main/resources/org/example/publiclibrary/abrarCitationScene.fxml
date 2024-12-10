@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="org.example.publiclibrary.AbrarCitationScene"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="503.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.publiclibrary.AbrarCitationScene">
+   <children>
+      <ComboBox fx:id="styleCB" layoutX="359.0" layoutY="76.0" prefWidth="150.0" promptText="CItation Style" />
+      <TableView fx:id="bookTableView" layoutX="24.0" layoutY="76.0" prefHeight="310.0" prefWidth="322.0">
+        <columns>
+          <TableColumn fx:id="bookIDTC" prefWidth="75.0" text="Book ID" />
+          <TableColumn fx:id="bookNameTC" prefWidth="75.0" text="Book Name" />
+            <TableColumn fx:id="dopTC" prefWidth="93.59999084472656" text="Date of Publish" />
+            <TableColumn fx:id="genreTC" prefWidth="77.60003662109375" text="Genre" />
+        </columns>
+      </TableView>
+      <Button layoutX="24.0" layoutY="30.0" mnemonicParsing="false" onAction="#backBtnOnClick" text="Back" />
+      <Button layoutX="359.0" layoutY="119.0" mnemonicParsing="false" onAction="#SaveBtnOnClick" prefHeight="63.0" prefWidth="150.0" text="Save" />
+      <TableView fx:id="bookTableView1" layoutX="526.0" layoutY="76.0" prefHeight="310.0" prefWidth="403.0">
+         <columns>
+            <TableColumn fx:id="bookIDTC1" prefWidth="75.0" text="Book ID" />
+            <TableColumn fx:id="bookNameTC1" prefWidth="75.0" text="Book Name" />
+            <TableColumn fx:id="dopTC1" prefWidth="93.59999084472656" text="Date of Publish" />
+            <TableColumn fx:id="genreTC1" prefWidth="77.60003662109375" text="Genre" />
+            <TableColumn fx:id="citationTC" prefWidth="77.60003662109375" text="Citation" />
+         </columns>
+      </TableView>
+   </children>
 </AnchorPane>
