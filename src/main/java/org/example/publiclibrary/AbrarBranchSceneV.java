@@ -9,6 +9,10 @@ public class AbrarBranchSceneV
 
     @javafx.fxml.FXML
     private TextArea listViewResults;
+    @javafx.fxml.FXML
+    private Label dsds;
+    @javafx.fxml.FXML
+    private Label fsds;
 
     @javafx.fxml.FXML
     public void initialize() {
