@@ -11,9 +11,6 @@ import java.io.IOException;
 public class AbrarPoilcySceneV {
 
     @FXML
-    private TextArea policyTextArea;
-
-    @FXML
     public void initialize() {
         // Optionally preload policies or setup configurations here
     }
