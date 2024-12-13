@@ -11,6 +11,6 @@
       <Label alignment="CENTER" layoutX="117.0" layoutY="25.0" prefHeight="18.0" prefWidth="325.0" text="Membership Information" />
       <Button layoutX="229.0" layoutY="89.0" mnemonicParsing="false" onAction="#handleBackToMenu" text="Learn about Membership" />
       <Button layoutX="270.0" layoutY="389.0" mnemonicParsing="false" onAction="#handBackMenu" text="Back to Main menu" />
-      <TextArea fx:id="textAreaMembership" layoutX="134.0" layoutY="147.0" prefHeight="200.0" prefWidth="390.0" text="Read Only" />
+      <TextArea fx:id="textAreaMembership" layoutX="134.0" layoutY="153.0" prefHeight="200.0" prefWidth="390.0" text="Read Only" />
    </children>
 </AnchorPane>
