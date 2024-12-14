@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="org.example.publiclibrary.AbrarHelpScene"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="560.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.publiclibrary.AbrarHelpScene">
+   <children>
+      <Label alignment="CENTER" layoutX="-23.0" layoutY="80.0" prefHeight="35.0" prefWidth="627.0" text="Ask a Librarian">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textAreaQuery" layoutY="135.0" prefHeight="200.0" prefWidth="668.0" />
+      <Button layoutX="307.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleSubmitQuery" text="Submit" />
+      <Button layoutX="562.0" layoutY="1.0" mnemonicParsing="false" text="Button" />
+      <Label fx:id="labelConfirmation" alignment="CENTER" layoutY="402.0" prefHeight="35.0" prefWidth="668.0" text="Label Confirmation">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
