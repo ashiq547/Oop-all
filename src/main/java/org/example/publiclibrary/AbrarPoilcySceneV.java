@@ -11,11 +11,14 @@ import java.io.IOException;
 public class AbrarPoilcySceneV {
 
     @FXML
+    private TextArea textAreaPolicies;
+
+    @FXML
     public void initialize() {
         // Optionally preload policies or setup configurations here
     }
 
-    @FXML
+    @Deprecated
     public void handleViewPolicies(ActionEvent actionEvent) {
         // Displaying policies in the TextArea
         String policies = "Library Policies:\n\n" +
@@ -43,9 +46,17 @@ public class AbrarPoilcySceneV {
         }
     }
 
-    @FXML
+    @Deprecated
     public void btnBackToMenu(ActionEvent actionEvent) {
         // Logic for navigating back to the main menu
         policyTextArea.setText("Returning to main menu...");
+    }
+
+    @FXML
+    public void btnDownloadPolicies(ActionEvent actionEvent) {
+    }
+
+    @FXML
+    public void handleBackToMenu(ActionEvent actionEvent) {
     }
 }

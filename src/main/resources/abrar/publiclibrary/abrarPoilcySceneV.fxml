@@ -9,14 +9,14 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.publiclibrary.AbrarPoilcySceneV">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="50.0" layoutX="74.0" layoutY="27.0" prefHeight="18.0" prefWidth="464.0" text="Library Policies">
+      <Label contentDisplay="CENTER" layoutX="210.0" layoutY="14.0" prefHeight="36.0" prefWidth="198.0" text="Library Policies">
          <font>
-            <Font name="System Bold" size="20.0" />
+            <Font name="System Bold Italic" size="25.0" />
          </font>
       </Label>
-      <Button layoutX="247.0" layoutY="67.0" mnemonicParsing="false" onAction="#handleViewPolicies" text="View Policies" />
-      <Button layoutX="272.0" layoutY="308.0" mnemonicParsing="false" onAction="#handleDownloadPolicies" text="Download" />
-      <TextArea layoutX="100.0" layoutY="100.0" prefHeight="200.0" prefWidth="395.0" />
-      <Button layoutX="20.0" layoutY="16.0" mnemonicParsing="false" onAction="#btnBackToMenu" text="Back to main menu" />
+      <Button layoutX="29.0" layoutY="19.0" mnemonicParsing="false" onAction="#handleBackToMenu" text="Back to main menu" />
+      <Button layoutX="180.0" layoutY="63.0" mnemonicParsing="false" onAction="#btnDownloadPolicies" prefHeight="26.0" prefWidth="237.0" text="View Policies" />
+      <Button layoutX="190.0" layoutY="326.0" mnemonicParsing="false" onAction="#handleDownloadPolicies" prefHeight="26.0" prefWidth="238.0" text="Download" />
+      <TextArea fx:id="textAreaPolicies" layoutX="39.0" layoutY="100.0" prefHeight="200.0" prefWidth="521.0" />
    </children>
 </AnchorPane>
