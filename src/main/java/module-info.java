@@ -1,4 +1,3 @@
-
 module com.example.sajid2222122 {
     requires javafx.controls;
     requires javafx.fxml;
@@ -8,5 +7,4 @@ module com.example.sajid2222122 {
 
     opens com.example.sajid2222122 to javafx.fxml;
     exports com.example.sajid2222122;
-
 }
