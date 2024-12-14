@@ -8,6 +8,10 @@ public class AbrarSignSceneV
     private Label feedbackLabel;
     @javafx.fxml.FXML
     private TextField emailField;
+    @javafx.fxml.FXML
+    private Button handleBackToMenu;
+    @javafx.fxml.FXML
+    private Label feedbackLabel1;
 
     @javafx.fxml.FXML
     public void initialize() {
@@ -17,7 +21,7 @@ public class AbrarSignSceneV
     public void handleSubscribe(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void handleBackToMenu(ActionEvent actionEvent) {
     }
 }

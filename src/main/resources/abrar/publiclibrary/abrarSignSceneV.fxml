@@ -6,26 +6,23 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="505.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.publiclibrary.AbrarSignSceneV">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.publiclibrary.AbrarSignSceneV">
    <children>
-      <Label alignment="CENTER" layoutX="175.0" layoutY="51.0" prefHeight="35.0" prefWidth="344.0" text="Newsletter Signup">
-         <font>
-            <Font name="System Bold Italic" size="24.0" />
-         </font>
-      </Label>
-      <TextField fx:id="emailField" layoutX="237.0" layoutY="113.0" prefHeight="26.0" prefWidth="221.0" />
-      <Text layoutX="80.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your Email adress:" />
-      <ComboBox fx:id="topicsComboBox" layoutX="242.0" layoutY="180.0" prefHeight="26.0" prefWidth="210.0" />
-      <Text layoutX="92.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select topics of interest" />
-      <Button layoutX="299.0" layoutY="272.0" mnemonicParsing="false" onAction="#handleSubscribe" text="Subscribe" />
-      <Button layoutX="14.0" layoutY="19.0" mnemonicParsing="false" onAction="#handleBackToMenu" text="Back to main menu" />
-      <Label fx:id="feedbackLabel" alignment="CENTER" layoutX="12.0" layoutY="376.0" prefHeight="18.0" prefWidth="677.0" text="subscription confirmation">
+      <Button layoutX="272.0" layoutY="264.0" mnemonicParsing="false" onAction="#handleSubscribe" text="Subscribe" />
+      <Button fx:id="handleBackToMenu" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back to main menu" />
+      <Label fx:id="feedbackLabel" alignment="CENTER" layoutX="-2.0" layoutY="321.0" prefHeight="18.0" prefWidth="591.0" text="subscription confirmation ">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
+      <Label fx:id="feedbackLabel1" alignment="CENTER" layoutX="10.0" layoutY="40.0" prefHeight="18.0" prefWidth="591.0" text="Newsletter Signup">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="topicsComboBox" layoutX="180.0" layoutY="122.0" prefHeight="26.0" prefWidth="252.0" />
+      <TextField fx:id="emailField" layoutX="14.0" layoutY="122.0" text="Enter your email adress:" />
    </children>
 </AnchorPane>
