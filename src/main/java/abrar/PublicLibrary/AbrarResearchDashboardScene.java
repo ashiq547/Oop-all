@@ -39,7 +39,7 @@ public class AbrarResearchDashboardScene {
     @FXML
     private Button handleRenewItems; // Borrow section button
 
-    // Method for handling "Search" button click
+
     @FXML
     private void handleSearch(ActionEvent event) {
         String query = textFieldSearch.getText().trim(); // Get search input
@@ -54,7 +54,7 @@ public class AbrarResearchDashboardScene {
         }
     }
 
-    // Method for handling "Reserve Book" button click
+
     @FXML
     private void handleReserveBook(ActionEvent event) {
         String bookTitle = textFieldBookTitle.getText().trim(); // Get book title input
@@ -68,15 +68,15 @@ public class AbrarResearchDashboardScene {
         }
     }
 
-    // Method for handling "Borrow Section" button click
+
     @FXML
     private void handleRenewItems(ActionEvent event) {
-        // Add logic for navigating to the borrowing section
+
         System.out.println("Navigating to Borrowed Items section...");
         showAlert("Borrow Section", "Borrowed Items section will be implemented here.", AlertType.INFORMATION);
     }
 
-    // Utility method to display alerts
+   
     private void showAlert(String title, String message, AlertType alertType) {
         Alert alert = new Alert(alertType);
         alert.setTitle(title);
